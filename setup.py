@@ -12,10 +12,10 @@ AUTHOR_EMAIL = "hrisikesh.neogi@gmail.com"
 
 
 setuptools.setup( 
-    name = "database_connect",
-    version="0.1.65",
-    author="Hrisikesh Neogi",
-    author_email="hrisikesh.neogi@gmail.com",
+    name = REPO_NAME,
+    version=__version__,
+    author=AUTHOR_USER_NAME,
+    author_email=AUTHOR_EMAIL,
     description= "A single Package to extract wc 2023 data.",
     long_description=long_description,
     long_description_content_type = "text/markdown",
